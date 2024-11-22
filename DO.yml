@@ -1,0 +1,14 @@
+name: DO
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - fenics
+  - mshr
+  - notebook
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+    - pysgpp
