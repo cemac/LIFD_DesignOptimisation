@@ -27,7 +27,7 @@ Will launch this tutorial in binder or Google Colab.
 
 **Running locally**
 
-If you're already familiar with Git, Anaconda and virtual environments, the environment you need to create is found in [DO.yml](https://github.com/cemac/LIFD_DesignOptimisation/blob/main/DO.yml) and the code below will install, activate and launch the notebook. The .yml file has been tested on the latest Linux, macOS and Windows operating systems.
+If you're already familiar with Git, Anaconda and virtual environments, the environment you need to create is found in [DO.yml](https://github.com/cemac/LIFD_DesignOptimisation/blob/main/DO.yml) and the code below will install, activate and launch the notebook. The .yml file has been tested on the latest version of Ubuntu Linux. Windows and macOS are not officially supported, although Windows users can alternatively use the Windows Subsystem for Linux.
 
 ```bash
 git clone git@github.com:cemac/LIFD_DesignOptimisation.git
