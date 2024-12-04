@@ -39,7 +39,7 @@ jupyter-notebook
 
 ## Installation and requirements
 
-This notebook is designed to run on a laptop with no special hardware required. However, training of neural networks can take a long time (hours) without dedicated GPU hardware. If you have a GPU, it is recommended to do a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/jupyter_notebooks.md) sections. Otherwise, online compute platforms which offer GPU access (e.g. Google Colab) are strongly recommended.
+This notebook is designed to run on a laptop with no special hardware required. Even on modest hardware, the CFD simulations should only take a few minutes to run. It is recommended to do a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/jupyter_notebooks.md) sections. Otherwise, online compute platforms (e.g. Google Colab) are also supported.
 
 ## Licence Information
 
