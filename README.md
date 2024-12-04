@@ -9,11 +9,11 @@
 
 # Design Optimisation with Metamodels
 
-[![GitHub release](https://img.shields.io/github/release/cemac/LIFD_ImageSegmentation.svg)](https://github.com/cemac/LIFD_ImageSegmentation/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_ImageSegmentation.svg)](https://github.com/cemac/LIFD_ImageSegmentation) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_ImageSegmentation.svg)](https://github.com/cemac/LIFD_ImageSegmentation/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_ImageSegmentation.svg)](https://github.com/cemac/LIFD_ImageSegmentation/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_ImageSegmentation/total.svg)](https://github.com/cemac/LIFD_ImageSegmentation/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_DimensionalityReduction.svg)[![DOI](https://zenodo.org/badge/366734586.svg)](https://zenodo.org/badge/latestdoi/366734586)
+[![GitHub release](https://img.shields.io/github/release/cemac/LIFD_DesignOptimisation.svg)](https://github.com/cemac/LIFD_DesignOptimisation/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_DesignOptimisation.svg)](https://github.com/cemac/LIFD_DesignOptimisation) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_DesignOptimisation.svg)](https://github.com/cemac/LIFD_DesignOptimisation/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_DesignOptimisation.svg)](https://github.com/cemac/LIFD_DesignOptimisation/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_DesignOptimisation/total.svg)](https://github.com/cemac/LIFD_DesignOptimisation/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_DimensionalityReduction.svg)[![DOI](https://zenodo.org/badge/366734586.svg)](https://zenodo.org/badge/latestdoi/366734586)
 
-[![LIFD_ENV_ML_NOTEBOOKS](https://github.com/cemac/LIFD_ImageSegmentation/actions/workflows/python-package-conda-unet.yml/badge.svg)](https://github.com/cemac/LIFD_ImageSegmentation/actions/workflows/python-package-conda-unet.yml)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cemac/LIFD_ImageSegmentation/HEAD?labpath=Image_Segmentation.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cemac/LIFD_ImageSegmentation/blob/main/Image_Segmentation.ipynb)
+[![LIFD_ENV_ML_NOTEBOOKS](https://github.com/cemac/LIFD_DesignOptimisation/actions/workflows/python-package-conda-unet.yml/badge.svg)](https://github.com/cemac/LIFD_DesignOptimisation/actions/workflows/python-package-conda-unet.yml)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cemac/LIFD_DesignOptimisation/HEAD?labpath=Image_Segmentation.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cemac/LIFD_DesignOptimisation/blob/main/Image_Segmentation.ipynb)
 
 This Jupyter notebook demonstrates how machine-learning metamodels can be used to solve fluid mechanical design optimisation problems. Here, design optimisation refers to the process of finding the best solution to an engineering problem within constraints using mathematical techniques. Metamodels allow us to explore parameter space to find optimal solutions to Partial Differential Equations (PDEs) while only running a relatively small number of costly Computational Fluid Dynamics (CFD) simulations. This notebook contains an example application to coronary bypass anastomosis, a surgical procedure used to treat coronary artery disease ([Lassila et al., 2013](https://doi.org/10.1051/m2an/2012059)).
 
@@ -27,13 +27,13 @@ Will launch this tutorial in binder or Google Colab.
 
 **Running locally**
 
-If you're already familiar with Git, Anaconda and virtual environments, the environment you need to create is found in [DO.yml](https://github.com/cemac/LIFD_ImageSegmentation/blob/main/unet.yml) and the code below will install, activate and launch the notebook. The .yml file has been tested on the latest Linux, macOS and Windows operating systems.
+If you're already familiar with Git, Anaconda and virtual environments, the environment you need to create is found in [DO.yml](https://github.com/cemac/LIFD_DesignOptimisation/blob/main/DO.yml) and the code below will install, activate and launch the notebook. The .yml file has been tested on the latest Linux, macOS and Windows operating systems.
 
 ```bash
-git clone git@github.com:cemac/LIFD_ImageSegmentation.git
-cd LIFD_ImageSegmentation
-conda env create -f unet.yml
-conda activate unet
+git clone git@github.com:cemac/LIFD_DesignOptimisation.git
+cd LIFD_DesignOptimisation
+conda env create -f DO.yml
+conda activate DO
 jupyter-notebook
 ```
 
