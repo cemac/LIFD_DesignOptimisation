@@ -39,7 +39,7 @@ jupyter-notebook
 
 ## Installation and requirements
 
-This notebook is designed to run on a laptop with no special hardware required. Even on modest hardware, the CFD simulations should only take a few minutes to run. It is recommended to do a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/jupyter_notebooks.md) sections. Otherwise, online compute platforms (e.g. Google Colab) are also supported.
+This notebook is designed to run on a laptop with no special hardware required. Even on modest hardware, the CFD simulations should only take a few minutes to run. It is recommended to do a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/jupyter_notebooks.md) sections. Otherwise, online compute platforms (e.g. Google Colab) are also supported.
 
 ## Licence Information
 
